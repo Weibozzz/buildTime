@@ -1,6 +1,6 @@
 {
-  "name": "buildtime",
-  "version": "1.0.0",
+  "name": "build-time-info",
+  "version": "0.0.1",
   "description": "一个打包后可查看版本时间等信息",
   "main": "index.js",
   "scripts": {
@@ -19,10 +19,9 @@
   },
   "homepage": "https://github.com/Weibozzz/buildTime#readme",
   "devDependencies": {
-    "execa": "1.0.0",
-    "rollup": "^3.18.0"
   },
   "dependencies": {
-    "real-ip": "^1.0.3"
+    "execa": "1.0.0",
+    "rollup": "^3.18.0"
   }
 }
