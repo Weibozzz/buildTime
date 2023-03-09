@@ -1,0 +1,23 @@
+{
+  "name": "buildtime",
+  "version": "1.0.0",
+  "description": "一个打包后可查看版本时间等信息",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Weibozzz/buildTime.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Weibozzz/buildTime/issues"
+  },
+  "homepage": "https://github.com/Weibozzz/buildTime#readme",
+  "devDependencies": {
+    "execa": "^5.0.0"
+  }
+}
