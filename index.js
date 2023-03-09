@@ -1,8 +1,9 @@
 'use strict';
 
+Object.defineProperty(exports, '__esModule', { value: true });
+
 var execa = require('execa');
 
-// const execa = require('execa')
 let lastId = '';
 let branch = '';
 let lastSubmitTime = '';
@@ -22,5 +23,17 @@ try {
 }
 const time = new Date().toLocaleString();
 const buildTime = `构建时间:${time};构建人:${publishPerson};分支:${branch};最后提交msg:${lastSubmitTxt};最后提交时间:${lastSubmitTime};最后提交commitId:${lastId};`;
+const buildFn = () => {
+  return {
+    buildTime: time,
+    publishPerson,
+    branch,
+    lastSubmitTxt,
+    lastSubmitTime,
+    lastId,
+  };
+};
 
-module.exports = buildTime;
+exports.buildFn = buildFn;
+exports.buildTime = buildTime;
+exports.default = buildTime;
