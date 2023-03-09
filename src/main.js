@@ -18,4 +18,14 @@ try {
 }
 const time = new Date().toLocaleString()
 const buildTime = `构建时间:${time};构建人:${publishPerson};分支:${branch};最后提交msg:${lastSubmitTxt};最后提交时间:${lastSubmitTime};最后提交commitId:${lastId};`
+export const buildFn = () => {
+  return {
+    buildTime: time,
+    publishPerson,
+    branch,
+    lastSubmitTxt,
+    lastSubmitTime,
+    lastId,
+  };
+}
 export default buildTime
