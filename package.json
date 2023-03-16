@@ -1,6 +1,6 @@
 {
   "name": "build-time-info",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "一个打包后可查看版本时间等信息",
   "main": "index.js",
   "scripts": {
